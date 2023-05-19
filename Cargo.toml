@@ -1,11 +1,11 @@
 [package]
-name = "rustdesk"
+name = "prxcc"
 version = "1.2.0"
 authors = ["rustdesk <info@rustdesk.com>"]
 edition = "2021"
 build= "build.rs"
 description = "A remote control software."
-default-run = "rustdesk"
+default-run = "prxcc"
 
 [lib]
 name = "librustdesk"
@@ -142,7 +142,7 @@ exclude = ["vdi/host", "examples/custom_plugin"]
 [package.metadata.winres]
 LegalCopyright = "Copyright © 2022 Purslane, Inc."
 # this FileDescription overrides package.description
-FileDescription = "RustDesk"
+FileDescription = "prxcc"
 
 [target.'cfg(target_os="windows")'.build-dependencies]
 winres = "0.1"
